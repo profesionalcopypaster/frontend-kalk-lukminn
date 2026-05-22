@@ -25,7 +25,7 @@ document.getElementById('btnHitung').addEventListener('click', async () => {
     try {
         // CATATAN: Ganti URL ini dengan URL Hugging Face pada saat melakukan deploy
         // Contoh: "https://username-nama-space.hf.space/calculate"
-        const BACKEND_URL = "http://127.0.0.1:8000/calculate"; 
+        const BACKEND_URL = "https://kocakgaming-kalkulator-lukmin.hf.space/calculate"; 
 
         // 3. Lakukan request POST ke Backend Python
         const response = await fetch(BACKEND_URL, {
