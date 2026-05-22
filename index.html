@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator API Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Kalkulator</h2>
+        
+        <div class="input-group">
+            <input type="number" id="angka1" placeholder="Angka Pertama" required>
+            
+            <select id="operasi">
+                <option value="tambah">+</option>
+                <option value="kurang">-</option>
+                <option value="kali">x</option>
+                <option value="bagi">÷</option>
+            </select>
+            
+            <input type="number" id="angka2" placeholder="Angka Kedua" required>
+        </div>
+
+        <button id="btnHitung">Hitung</button>
+
+        <div class="result-box">
+            <p>Hasil: <span id="hasilTeks">-</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
